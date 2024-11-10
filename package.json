@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "url-shortener",
+    "nanoid",
+    "mongodb",
+    "back-end"
+  ],
+  "author": "Riz",
+  "license": "ISC",
+  "description": "This is my dummy project, you can use it for personal or commercial purposes according to the terms in the license.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "nanoid": "^5.0.8",
+    "url-shortener": "file:"
+  }
+}
